@@ -11,9 +11,9 @@ int sum(int t[], int n) {
 }
 
 int mylen(char s[]) {
-    int res;
-    for (res = 0; s[res]; res++) {
-        /* do nothing */
+    int res = 0;
+    while (s[res]) {
+        res++;
     }
     return res;
 }
