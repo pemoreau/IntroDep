@@ -19,6 +19,7 @@ int mylen(char s[]) {
 }
 
 int main() {
+    printf("Hello\n");
     printf("addone(5) = %d\n", addone(5));
     printf("addcst(5) = %d\n", addcst(5));
 
