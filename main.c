@@ -12,7 +12,7 @@ int sum(int t[], int n) {
 
 int mylen(char *s) {
     int res = 0;
-    while (s[res]) {
+    while (*(s + res)) {
         res++;
     }
     return res;
