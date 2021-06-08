@@ -10,6 +10,8 @@ Point* create_point(int a, int b) {
     return res;
 }
 
+Point* copy(Point* p) { return create_point(p->x, p->y); }
+
 void print_point(Point* p) { printf("[%d,%d]\n", p->x, p->y); }
 
 void move(Point* p, int dx, int dy) {
